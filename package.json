@@ -1,0 +1,25 @@
+{
+  "name": "sql-cheatsheet-de",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Data Engineering SQL Handbook with spaced repetition and interactive active recall",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^17.0.0",
+    "typescript": "^5.7.3",
+    "vitepress": "^1.6.4",
+    "vitest": "^3.2.7",
+    "vue": "^3.5.13"
+  }
+}
