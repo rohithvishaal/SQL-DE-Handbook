@@ -10,7 +10,8 @@
     "docs:preview": "vitepress preview .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run docs:build && npx wrangler pages deploy"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
